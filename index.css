@@ -1,72 +1,35 @@
 body {
-    background: #000000;
-    margin: 0;
-    padding: 0;
-    overscroll-behavior: none;
+    color: white;
 }
-
-input[type="number"] {
+.form-control {
     background-color: transparent;
     border: 1px solid white;
     border-radius: 5px;
     color: white;
-    padding: 5px;
-    outline: none;
-    width: 100%;
-    box-sizing: border-box;
 }
-
-input[type="number"]:focus {
-    border-color: #00bfff;
-    box-shadow: 0 0 5px #00bfff;
-}
-
-button.optButton {
+.form-control:focus {
     background-color: transparent;
-    border: 1px solid white;
-    border-radius: 5px;
     color: white;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: all 0.3s ease; 
+    border-color: white;
+    box-shadow: none;
 }
-
-button.optButton:hover {
+.btn-primary {
     background-color: white;
     color: black;
+    border: none;
 }
-
-button.sectColorBtn {
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: white;
-    padding: 2px 7px;
-    cursor: pointer;
-    transition: all 0.3s ease; 
-}
-
-button.sectColorBtn:hover {
-    background-color: white;
+.btn-primary:hover {
+    background-color: #e6e6e6;
     color: black;
 }
-
-#doBox {
-    max-width: 350px;
-    max-height: 400px;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
-.colorNumIn {
-    max-width: 75px;
-    background-color: red;
-    padding-right: 10px;
-}
-
-#sectBox {
-    border: white 1px solid;
+.container {
+    border: 1px solid white;
     border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
+    padding-bottom: 20px;
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+    color: white;
+    font-size: 0.9rem;
+    z-index: 1000;
 }
